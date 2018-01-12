@@ -72,8 +72,8 @@ fi
 git checkout master
 
 # Update README.md
-diffUrl="[${lastGitBranch}...rn-${newVersion}](https://github.com/ncuillery/rn-diff/compare/${lastGitBranch}...rn-${newVersion})"
-patchUrl="[${lastGitBranch}...rn-${newVersion}](https://github.com/ncuillery/rn-diff/compare/${lastGitBranch}...rn-${newVersion}.diff)"
+diffUrl="[${lastGitBranch}...rn-${newVersion}](https://github.com/tychota/rn-diff/compare/${lastGitBranch}...rn-${newVersion})"
+patchUrl="[${lastGitBranch}...rn-${newVersion}](https://github.com/tychota/rn-diff/compare/${lastGitBranch}...rn-${newVersion}.diff)"
 
 # Insert a row in the version table
 ## Insert a new line (a bit tricky but compatible with either OSX sed and GNU sed)
